@@ -1,0 +1,520 @@
+    <!doctype html>
+    <html lang="ar" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>مدبر - لوحة التحكم</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+        href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+        />
+
+        <!-- Font Awesome -->
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+
+    <body>
+
+        <aside class="sidebar">
+        <div class="brand">
+            <span class="logo"><i class="fa-solid fa-coins"></i></span>
+            <div>
+            <h1>مدبّر</h1>
+            <span>إدارة أموالك بذكاء</span>
+            </div>
+        </div>
+
+        <nav class="nav">
+            <a href="#" class="active"
+            ><i class="fa-solid fa-house"></i> الصفحة الرئيسية</a
+            >
+            <a href="#"
+            ><i class="fa-solid fa-arrow-right-arrow-left"></i> المعاملات</a
+            >
+            <a href="#"><i class="fa-solid fa-chart-pie"></i> الميزانيات</a>
+            <a href="#"><i class="fa-solid fa-piggy-bank"></i> المدخرات</a>
+            <a href="#"
+            ><i class="fa-solid fa-file-invoice"></i> الفواتير الشهرية</a
+            >
+        </nav>
+
+        <h3 class="quick-title">إجراءات سريعة</h3>
+        <div class="quick">
+            <a href="#"><i class="fa-solid fa-paper-plane"></i> إرسال أموال</a>
+            <a href="#"><i class="fa-solid fa-plus"></i> إضافة أموال</a>
+            <a href="#"><i class="fa-solid fa-receipt"></i> دفع فاتورة</a>
+            <a href="#"><i class="fa-solid fa-chart-line"></i> استثمار</a>
+        </div>
+        </aside>
+
+        <main class="dashboard">
+
+        <header class="card header">
+            <div class="header-right">
+            <span class="logo"><i class="fa-solid fa-coins"></i></span>
+            <div>
+                <h2>مدبّر</h2>
+                <small>إدارة أموالك بذكاء</small>
+            </div>
+            <span class="status">● متصل</span>
+            </div>
+            <div class="header-left">
+            <button class="icon-btn" aria-label="">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="icon-btn" aria-label="">
+                <span>2</span><i class="fa-solid fa-bell"></i>
+            </button>
+
+            <div class="user">
+                <div>
+                <strong>سيف أسامة</strong>
+                <small>حساب مميز</small>
+                </div>
+                <img src="./imag/avatar-2.jpg" alt="سيف أسامة" />
+            </div>
+            </div>
+        </header>
+
+        <section class="card stat s1">
+            <p>الرصيد الحالي</p>
+            <h3>8,450 جنية</h3>
+            <a href="#"><i class="fa-solid fa-arrow-up"></i> +2.5%</a>
+        </section>
+
+        <section class="card stat s2">
+            <p>الدخل</p>
+            <h3>15,000 جنية</h3>
+            <a href="#"><i class="fa-solid fa-arrow-up"></i> +8.2%</a>
+        </section>
+
+        <section class="card stat s3">
+            <p>المصروفات</p>
+            <h3>10,000 جنية</h3>
+            <span class="mm">
+            <a href="#"><i class="fa-solid fa-arrow-down"></i> +8.2% </a>
+            </span>
+        </section>
+
+        <section class="card activities">
+            <h2 class="card-title">الأنشطة الحديثة</h2>
+            <div class="activity blue-bg">
+            <strong>إنشاء حساب توفير جديد</strong><em>حساب</em>
+            <p>تم إنشاء حساب توفير بنك الأهلي بنجاح</p>
+            <small>منذ ساعة واحدة</small>
+            </div>
+            <div class="activity green-bg">
+            <strong>إضافة بطاقة جديدة</strong><em>بطاقة</em>
+            <p>تمت إضافة بطاقة Visa الجديدة ****2847</p>
+            <small>منذ 3 ساعات</small>
+            </div>
+            <a href="#" class="link-center">عرض جميع الأنشطة (23)</a>
+        </section>
+
+        <section class="card transactions">
+            <div class="card-head">
+            <h2 class="card-title">المعاملات الأخيرة</h2>
+            <a href="#" class="more">‹ عرض الكل</a>
+            </div>
+            <div class="table-wrap">
+            <table>
+                <thead>
+                <tr>
+                    <th>المعاملة</th>
+                    <th>الفئة</th>
+                    <th>التاريخ</th>
+                    <th>الحالة</th>
+                    <th>المبلغ</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>
+                    <div class="who">
+                        <img src="./imag/avatar-4.jpg" alt="" />
+                        <div><b>محمود النجار</b><small>تحويل أموال</small></div>
+                    </div>
+                    </td>
+                    <td>
+                    <span class="tag green-t"
+                        ><i class="fa-solid fa-arrow-down"></i> دخل</span
+                    >
+                    </td>
+                    <td>14 أكتوبر، 2025</td>
+                    <td><span class="pill done">مكتمل</span></td>
+                    <td class="plus">+350 جنية</td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="who">
+                        <span class="ico orange"
+                        ><i class="fa-solid fa-utensils"></i
+                        ></span>
+                        <div><b>مطعم Meat moot</b><small>دفع مطعم</small></div>
+                    </div>
+                    </td>
+                    <td>
+                    <span class="tag orange-t"
+                        ><i class="fa-solid fa-utensils"></i> طعام</span
+                    >
+                    </td>
+                    <td>14 أكتوبر، 2025</td>
+                    <td><span class="pill done">مكتمل</span></td>
+                    <td>-2200 جنية</td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="who">
+                        <span class="ico blue"
+                        ><i class="fa-solid fa-cart-shopping"></i
+                        ></span>
+                        <div><b>مشتريات Amazon</b><small>تسوق إلكتروني</small></div>
+                    </div>
+                    </td>
+                    <td>
+                    <span class="tag blue-t"
+                        ><i class="fa-solid fa-cart-shopping"></i> تسوق</span
+                    >
+                    </td>
+                    <td>13 أكتوبر، 2025</td>
+                    <td><span class="pill done">مكتمل</span></td>
+                    <td>-1250 جنية</td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="who">
+                        <img src="./imag/avatar-2 (1).jpg" alt="" />
+                        <div><b>عمر المهدي</b><small>دفع فاتورة مقسمة</small></div>
+                    </div>
+                    </td>
+                    <td>
+                    <span class="tag purple-t"
+                        ><i class="fa-solid fa-users"></i> فاتورة مقسمة</span
+                    >
+                    </td>
+                    <td>13 أكتوبر، 2025</td>
+                    <td><span class="pill done">مكتمل</span></td>
+                    <td>-1400 جنية</td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="who">
+                        <img src="./imag/avatar-3.jpg" alt="" />
+                        <div><b>محمد عوض</b><small>دفع عمل حر</small></div>
+                    </div>
+                    </td>
+                    <td>
+                    <span class="tag green-t"
+                        ><i class="fa-solid fa-briefcase"></i> عمل</span
+                    >
+                    </td>
+                    <td>12 أكتوبر، 2025</td>
+                    <td><span class="pill done">مكتمل</span></td>
+                    <td class="plus">+2500 جنية</td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="who">
+                        <span class="ico red"
+                        ><i class="fa-solid fa-gas-pump"></i
+                        ></span>
+                        <div><b>محطة وقود Shell</b><small>شراء وقود</small></div>
+                    </div>
+                    </td>
+                    <td>
+                    <span class="tag red-t"
+                        ><i class="fa-solid fa-car"></i> مواصلات</span
+                    >
+                    </td>
+                    <td>12 أكتوبر، 2025</td>
+                    <td><span class="pill pending">معلق</span></td>
+                    <td>-700 جنية</td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="who">
+                        <span class="ico indigo"
+                        ><i class="fa-solid fa-film"></i
+                        ></span>
+                        <div><b>اشتراك Netflix</b><small>اشتراك شهري</small></div>
+                    </div>
+                    </td>
+                    <td>
+                    <span class="tag indigo-t"
+                        ><i class="fa-solid fa-tv"></i> ترفيه</span
+                    >
+                    </td>
+                    <td>11 أكتوبر، 2025</td>
+                    <td><span class="pill done">مكتمل</span></td>
+                    <td>-780 جنية</td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="who">
+                        <span class="ico cyan"
+                        ><i class="fa-solid fa-dumbbell"></i
+                        ></span>
+                        <div><b>نادي FitLife</b><small>عضوية شهرية</small></div>
+                    </div>
+                    </td>
+                    <td>
+                    <span class="tag cyan-t"
+                        ><i class="fa-solid fa-heart-pulse"></i> صحة</span
+                    >
+                    </td>
+                    <td>10 أكتوبر، 2025</td>
+                    <td><span class="pill done">مكتمل</span></td>
+                    <td>-500 جنية</td>
+                </tr>
+                <tr>
+                    <td>
+                    <div class="who">
+                        <span class="ico green"
+                        ><i class="fa-solid fa-graduation-cap"></i
+                        ></span>
+                        <div><b>كورس Jonas</b><small>دورة تدريبية</small></div>
+                    </div>
+                    </td>
+                    <td>
+                    <span class="tag green-t"
+                        ><i class="fa-solid fa-book"></i> تعليم</span
+                    >
+                    </td>
+                    <td>9 أكتوبر، 2025</td>
+                    <td><span class="pill done">مكتمل</span></td>
+                    <td>-250 جنية</td>
+                </tr>
+                </tbody>
+            </table>
+            </div>
+        </section>
+
+        <section class="card bills">
+            <div class="card-head">
+            <h2 class="card-title">الفواتير الشهرية</h2>
+            <a href="#" class="more">‹ عرض الكل</a>
+            </div>
+            <div class="bills-total">
+            <h3>1920 جنية</h3>
+            <small>إجمالي الفواتير الشهرية</small>
+            </div>
+            <div class="bills-grid">
+            <div class="bill">
+                <span class="ico blue"><i class="fa-solid fa-wifi"></i></span
+                ><small>إنترنت</small><b>450 جنية</b
+                ><em class="red">يستحق في 3 أيام</em>
+            </div>
+            <div class="bill">
+                <span class="ico yellow"><i class="fa-solid fa-bolt"></i></span
+                ><small>كهرباء</small><b>400 جنية</b
+                ><em class="orange">يستحق في 5 أيام</em>
+            </div>
+            <div class="bill">
+                <span class="ico green"><i class="fa-solid fa-phone"></i></span
+                ><small>هاتف</small><b>290 جنية</b
+                ><em class="green">يستحق في 10 أيام</em>
+            </div>
+            <div class="bill">
+                <span class="ico red"><i class="fa-solid fa-tv"></i></span
+                ><small>Netflix</small><b>780 جنية</b
+                ><em class="gray">يستحق في 15 يوم</em>
+            </div>
+            </div>
+        </section>
+
+        <section class="card budget">
+            <div class="card-head">
+            <h2 class="card-title">نظرة عامة على الميزانية</h2>
+            <a href="#" class="more">‹ التفاصيل</a>
+            </div>
+
+            <div class="budget-box">
+            <small class="blue-text">إجمالي الميزانية</small>
+            <h3>10000 جنية</h3>
+            <div class="remaining"><small>المتبقي</small><b>1750 جنية</b></div>
+            <div class="used-row">
+                <span>المستخدم: 8250 جنية</span><span>82.5%</span>
+            </div>
+            <div class="bar"><i style="--w: 82.5%"></i></div>
+            </div>
+
+            <div class="cat">
+            <div class="cat-top">
+                <span class="ico orange"><i class="fa-solid fa-film"></i></span>
+                <div><b>ترفيه</b><small>الميزانية: 1500 جنية</small></div>
+            </div>
+            <div class="cat-mid">
+                <b>750 جنية</b><span class="chip ok">متبقي 50%</span>
+            </div>
+            <div class="bar"><i style="--w: 50%; --c: #f97316"></i></div>
+            </div>
+            <div class="cat">
+            <div class="cat-top">
+                <span class="ico red"><i class="fa-solid fa-receipt"></i></span>
+                <div><b>فواتير</b><small>الميزانية: 2000 جنية</small></div>
+            </div>
+            <div class="cat-mid">
+                <b>2000 جنية</b><span class="chip bad">مستخدم 100%</span>
+            </div>
+            <div class="bar"><i style="--w: 100%; --c: #ef4444"></i></div>
+            </div>
+            <div class="cat">
+            <div class="cat-top">
+                <span class="ico pink"><i class="fa-solid fa-heart"></i></span>
+                <div><b>العناية الشخصية</b><small>الميزانية: 1500 جنية</small></div>
+            </div>
+            <div class="cat-mid">
+                <b>1200 جنية</b><span class="chip warn">متبقي 20%</span>
+            </div>
+            <div class="bar"><i style="--w: 80%; --c: #ec4899"></i></div>
+            </div>
+            <div class="cat">
+            <div class="cat-top">
+                <span class="ico green"
+                ><i class="fa-solid fa-cart-shopping"></i
+                ></span>
+                <div><b>مستلزمات المنزل</b><small>الميزانية: 5000 جنية</small></div>
+            </div>
+            <div class="cat-mid">
+                <b>4300 جنية</b><span class="chip ok">متبقي 14%</span>
+            </div>
+            <div class="bar"><i style="--w: 86%; --c: #22c55e"></i></div>
+            </div>
+        </section>
+
+        <section class="card chart">
+            <div class="card-head">
+            <h2 class="card-title">الدخل مقابل المصروفات</h2>
+            <a href="#" class="more">‹ التحليل</a>
+            </div>
+            <div class="legend">
+            <span><i class="dot green-d"></i>الدخل</span
+            ><span><i class="dot red-d"></i>المصروفات</span>
+            </div>
+            <div class="bars">
+            <div class="week">
+                <i class="in" style="--h: 140px"></i
+                ><i class="out" style="--h: 70px"></i><small>الأسبوع 1</small>
+            </div>
+            <div class="week">
+                <i class="in" style="--h: 145px"></i
+                ><i class="out" style="--h: 85px"></i><small>الأسبوع 2</small>
+            </div>
+            <div class="week">
+                <i class="in" style="--h: 150px"></i
+                ><i class="out" style="--h: 75px"></i><small>الأسبوع 3</small>
+            </div>
+            <div class="week">
+                <i class="in" style="--h: 142px"></i
+                ><i class="out" style="--h: 72px"></i><small>الأسبوع 4</small>
+            </div>
+            </div>
+        </section>
+
+        <section class="card accounts">
+            <div class="card-head">
+            <h2 class="card-title">ملخص الحساب</h2>
+            <a href="#" class="more">‹ التفاصيل</a>
+            </div>
+            <div class="account">
+            <span class="ico blue"
+                ><i class="fa-solid fa-building-columns"></i
+            ></span>
+            <div><b>حساب جاري</b><small>بنك مصر [4532 ••••]</small></div>
+            <strong>8,450 جنية</strong>
+            </div>
+            <div class="account">
+            <span class="ico green"><i class="fa-solid fa-piggy-bank"></i></span>
+            <div><b>حساب التوفير</b><small>بنك مصر [8901 ••••]</small></div>
+            <strong>297,540 جنية</strong>
+            </div>
+            <div class="account">
+            <span class="ico purple"
+                ><i class="fa-solid fa-credit-card"></i
+            ></span>
+            <div>
+                <b>بطاقة ائتمان</b><small>متاح: 1,850 جنية من 2,500 جنية</small>
+            </div>
+            <strong class="neg">- 6,000 جنية</strong>
+            </div>
+        </section>
+
+        <section class="card payments">
+            <div class="card-head">
+            <h2 class="card-title">وسائل الدفع</h2>
+            <a href="#" class="more">‹ إدارة</a>
+            </div>
+
+            <div class="pay-list">
+            <div class="pc" onclick="this.classList.toggle('flipped')">
+                <div class="pc-inner">
+                <div class="pc-face pc-front pc-visa">
+                    <div class="pc-top">
+                    <i class="fa-brands fa-cc-visa"></i
+                    ><span class="pc-chip"></span>
+                    </div>
+                    <div class="pc-number">4532 •••• •••• ••••</div>
+                    <div class="pc-info">
+                    <div><small>حامل البطاقة</small><b>سيف أسامة</b></div>
+                    <div><small>تنتهي</small><b>12/26</b></div>
+                    </div>
+                </div>
+                <div class="pc-face pc-back pc-visa">
+                    <div class="pc-stripe"></div>
+                    <div class="pc-sign">8901</div>
+                    <div class="pc-cvv"><small>CVV</small><b>456</b></div>
+                </div>
+                </div>
+            </div>
+
+            <div class="pc" onclick="this.classList.toggle('flipped')">
+                <div class="pc-inner">
+                <div class="pc-face pc-front pc-master">
+                    <div class="pc-top">
+                    <i class="fa-brands fa-cc-mastercard"></i
+                    ><span class="pc-chip"></span>
+                    </div>
+                    <div class="pc-number">8901 •••• •••• ••••</div>
+                    <div class="pc-info">
+                    <div><small>حامل البطاقة</small><b>سيف أسامة</b></div>
+                    <div><small>تنتهي</small><b>08/27</b></div>
+                    </div>
+                </div>
+                <div class="pc-face pc-back pc-master">
+                    <div class="pc-stripe"></div>
+                    <div class="pc-sign">8901</div>
+                    <div class="pc-cvv"><small>CVV</small><b>123</b></div>
+                </div>
+                </div>
+            </div>
+
+            <div class="pc" onclick="this.classList.toggle('flipped')">
+                <div class="pc-inner">
+                <div class="pc-face pc-front pc-paypal">
+                    <div class="pc-top">
+                    <i class="fa-brands fa-paypal"></i
+                    ><span class="pc-chip"></span>
+                    </div>
+                    <h4>حساب Paypal</h4>
+                    <div class="pc-info">
+                    <div><small>الإيميل</small><b>seif@example.com</b></div>
+                    <div><small>الحالة</small><b class="pc-ok">موثق</b></div>
+                    </div>
+                </div>
+                <div class="pc-face pc-back pc-paypal">
+                    <div class="pc-stripe"></div>
+                    <small>اضغط للرجوع</small>
+                </div>
+                </div>
+            </div>
+            </div>
+        </section>
+        
+        </main>
+    </body>
+    </html>
